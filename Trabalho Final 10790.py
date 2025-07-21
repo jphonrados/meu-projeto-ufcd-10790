@@ -9,13 +9,38 @@
 
 # 1. Preparar o Projeto Local:
 
-# Comecei por criar uma pasta github10790 com um mini-projeto funcional, conforme solicitado, que corresponde a um mini-programa
+# Comecei por criar uma pasta github10790 com um mini-projeto funcional, 
+# conforme solicitado, que corresponde a um mini-programa
 # que implementa algumas classes em Python com o objetivo de simular uma clínica médica.
 # O programa permite registar e listar médicos, pacientes e consultas.
 # Está dividido em dois ficheiros: um classes_medic com as classes 
 # e outro (este) com a função main() que implementa uma interface com o utilizador.
 
-# De seguida, criei um repositório local com o comando 'git init' (no terminal do VSC) e adicionei os ficheiros ao repositório com 'git add'.
+# De seguida, criei um repositório local com o comando 'git init' (no terminal do VSC) 
+# e adicionei os ficheiros ao repositório com 'git add .'.
+# Configurei também username e e-mail.
+
+# 2. Criar o Repositório Remoto no GitHub
+
+# 3. Ligar o Repositório Local ao GitHub:
+
+# Commando: git remote add origin https://github.com/jphonrados/meu-projeto-ufcd-10790.git
+# Primeiro push: git push -u origin main
+# Não funcionou porque ainda não tinha feito o commit inicial corretamente. Verifiquei com 'git log'.
+
+# 4. Verificar no GitHub:
+
+# Depois de feito o commit inicial seguido do primeiro push, verifiquei 
+# no GitHub que o repositório estava corretamente publicado!
+
+# 5. Alterar localmente e sincronizar com o GitHub:
+
+# Fiz algumas alterações (adicionei estes comentários do ponto 5.) e atualizei no GitHub com os comandos:
+# git add .
+# git commit -m "Atualização do projeto com alguns comentários (relativos ao ponto 5.)."
+# git push -u origin main
+
+
 
 from classes_medic import Medico, Paciente, Consulta
 
