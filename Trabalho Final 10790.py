@@ -39,8 +39,18 @@
 # git add .
 # git commit -m "Atualização do projeto com alguns comentários (relativos ao ponto 5.)."
 # git push -u origin main
+# De seguida, verifiquei que estas atualizações constavam do repositório respetivo no GitHub!
 
+# Acrecentei um README.md com alguma info pessoal (nome e curso). Comando:
+# echo "# meu-projeto-ufcd-10790" > README.md
+# Verifiquei que foi criado com o comando ls
+# git add README.md
+# git commit -m "Adiciona README.md"
+# E, de seguida, um push.
+# echo "Nome: João Silva. Curso: LP Python Ação 2" >> README.md
+# Por fim, um add (do README.md), um commit e um push para o GitHub.
 
+#############################################################################################
 
 from classes_medic import Medico, Paciente, Consulta
 
